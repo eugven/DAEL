@@ -1,18 +1,21 @@
 <div className="bg-gradient-to-br from-blue-50 to-white py-10 sm:py-16 md:py-20 lg:py-28 px-4 sm:px-6 md:px-12 lg:px-20 text-center rounded-2xl shadow-lg max-w-[90vw] lg:max-w-[1200px] xl:max-w-[1400px] mx-auto">
-  {/* Адаптивный логотип */}
-  <picture>
-  <source
-    type="image/webp"
-    srcSet="/DAEL_Logo_1x.webp 1x, /DAEL_Logo_2x.webp 2x, /DAEL_Logo_3x.webp 3x"
-  />
   <img
-    src="/DAEL_Logo_1x.webp"
-    alt="DAEL IT Logo"
-    className="mx-auto w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56 h-auto object-contain"
-  />
-</picture>
-  {/* Адаптивный текст */}
-  <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-gray-700 opacity-0 animate-fade-in delay-300 leading-snug md:leading-normal max-w-4xl mx-auto">
+  src="/dael_logo_256px.png"
+  srcSet="
+    /dael_logo_256px.png 1x,
+    /dael_logo_512px.png 2x,
+    /dael_logo_1024px.png 3x
+  "
+  alt="DAEL IT Logo"
+  style={{
+    width: '160px',
+    height: 'auto',
+    display: 'block',
+    margin: '0 auto',
+    objectFit: 'contain'
+  }}
+/>
+<p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-gray-700 opacity-0 animate-fade-in delay-300 leading-snug md:leading-normal max-w-4xl mx-auto">
     Automatisierung, Deployment und kontinuierlicher Support für Ihr Business.
   </p>
 </div>
