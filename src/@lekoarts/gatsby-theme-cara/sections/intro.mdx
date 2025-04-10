@@ -1,12 +1,10 @@
-<div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-white px-4 text-center">
-  <img
-  src="/DAEL_Logo.svg"
+import { StaticImage } from "gatsby-plugin-image"
+
+<StaticImage
+  src="../images/DAEL_Logo_Optimized.png"
   alt="DAEL IT Logo"
-  className="w-[70vw] max-w-[70vw] h-auto object-contain mx-auto"
+  placeholder="none"
+  layout="constrained"
+  width={220}
+  className="w-full max-w-[220px] h-auto object-contain"
 />
-
-
-  <p className="mt-6 text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-700 max-w-2xl leading-snug">
-    Automatisierung, Deployment und kontinuierlicher Support für Ihr Business.
-  </p>
-</div>
