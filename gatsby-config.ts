@@ -38,6 +38,11 @@ const config: GatsbyConfig = {
         display: `standalone`,
         icons: [
           {
+            src: `/favicon.ico`,
+            sizes: `48x48`,
+            type: `image/x-icon`,
+          },
+          {
             src: `/android-chrome-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
